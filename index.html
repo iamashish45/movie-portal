@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1163626194902738"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Knowledge Hub</title>
+    <meta name="description" content="A central hub for technical articles and cloud computing architecture insights.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb', // Professional blue
+                        primaryHover: '#1d4ed8',
+                        secondary: '#f8fafc',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-600 font-sans min-h-screen flex flex-col selection:bg-primary selection:text-white">
+
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-6xl mx-auto px-5 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
+                <div
+                    class="w-8 h-8 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center text-primary font-bold">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </div>
+                <span class="text-slate-900 font-bold text-xl tracking-wide">TechHub</span>
+            </div>
+
+            <div class="hidden md:flex items-center gap-2">
+                <a href="index.html"
+                    class="px-4 py-2 text-sm font-medium text-slate-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">Home</a>
+                <a href="articles.html"
+                    class="px-4 py-2 text-sm font-medium text-slate-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">Articles</a>
+                <a href="#download-section"
+                    class="px-4 py-2 text-sm font-bold text-white bg-slate-900 hover:bg-slate-800 rounded-lg transition-colors shadow-sm">
+                    Skip To Download
+                </a>
+            </div>
+            <div class="md:hidden">
+                <a href="#download-section"
+                    class="text-sm font-medium text-primary hover:text-primaryHover transition-colors duration-200">Download
+                    Full Guide</a>
+            </div>
+        </div>
+    </nav>
+
+    <main
+        class="max-w-6xl mx-auto px-5 sm:px-6 lg:px-8 py-10 sm:py-16 w-full flex-grow grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+        <div class="lg:col-span-2">
+            <header class="mb-10 sm:mb-12">
+                <div class="flex flex-wrap items-center gap-3 text-sm text-slate-500 mb-6">
+                    <span
+                        class="bg-primary/10 px-3 py-1 rounded-full border border-primary/20 text-primary text-xs font-semibold uppercase tracking-wider shadow-sm">Architecture</span>
+                    <span class="hidden sm:inline">•</span>
+                    <span>5 min read</span>
+                    <span class="hidden sm:inline">•</span>
+                    <span>Published Today</span>
+                </div>
+
+                <h1
+                    class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-4 leading-tight">
+                    Understanding Cloud Computing Architecture
+                </h1>
+
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <button
+                        class="px-3 py-1.5 bg-white border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:border-primary hover:text-primary transition-all shadow-sm">#CloudTech</button>
+                    <button
+                        class="px-3 py-1.5 bg-white border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:border-primary hover:text-primary transition-all shadow-sm">#IaaS</button>
+                    <button
+                        class="px-3 py-1.5 bg-white border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:border-primary hover:text-primary transition-all shadow-sm">#Virtualization</button>
+                </div>
+
+                <h2 class="text-xl sm:text-2xl font-medium text-slate-500 mb-8 leading-snug">
+                    An Executive Overview of Modern Scalable Systems and Virtualized Infrastructure
+                </h2>
+
+                <div class="flex items-center gap-4 py-6 border-y border-slate-200">
+                    <div
+                        class="w-12 h-12 rounded-full bg-gradient-to-tr from-primary to-blue-400 shadow flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">AD</span>
+                    </div>
+                    <div>
+                        <p class="text-slate-900 text-base font-semibold"><a href="author-profile.html"
+                                class="hover:text-primary transition-colors">Alex Developer</a></p>
+                        <p class="text-sm text-slate-500">Cloud Systems Architect</p>
+                    </div>
+                </div>
+            </header>
+
+            <article
+                class="prose prose-slate max-w-none text-slate-600 text-base sm:text-lg leading-relaxed sm:leading-loose">
+                <p class="text-xl text-slate-800 mb-8 font-medium leading-relaxed">
+                    Cloud computing architecture refers to the diverse components and subcomponents required for cloud
+                    computing. It's the blueprint that transforms physical hardware into a flexible, scalable, and
+                    dynamic
+                    digital ecosystem.
+                </p>
+
+                <figure class="mb-12 mt-8 group">
+                    <div class="overflow-hidden rounded-2xl shadow-md border border-slate-200 bg-slate-100 relative">
+                        <img src="images/core-foundation.png" alt="Cloud Fundamentals Illustration"
+                            class="w-full h-auto object-cover aspect-video group-hover:scale-105 transition-transform duration-700 ease-in-out">
+                    </div>
+                    <figcaption class="mt-4 text-center text-sm font-medium text-slate-500 px-4 leading-relaxed">
+                        <span class="text-primary font-bold"></span> Introduction to Cloud Infrastructure. A
+                        visual breakdown of the essential components that make up the backbone of modern web
+                        architecture.
+                    </figcaption>
+                </figure>
+                <h2
+                    class="text-2xl font-bold text-slate-900 mt-12 mb-5 border-l-4 border-primary pl-4 bg-slate-100 py-2 pr-4 rounded-r-lg">
+                    <a href="core-foundation.html" class="hover:text-primary transition-colors block">1. The Core
+                        Foundation</a>
+                </h2>
+                <p class="mb-6">
+                    These components typically consist of a front-end platform (fat client, thin client, mobile),
+                    back-end
+                    platforms (servers, storage), a cloud-based delivery, and a robust network. Combined, these elements
+                    make up a cohesive cloud computing architecture.
+                </p>
+
+                <h3 class="text-xl font-semibold text-slate-800 mt-8 mb-4"><a href="iaas.html"
+                        class="hover:text-primary transition-colors block">1.1 Infrastructure as a Service (IaaS)</a>
+                </h3>
+                <p class="mb-6">
+                    The fundamental premise involves abstracting physical hardware into scalable, virtualized resources
+                    that
+                    can be provisioned dynamically based on demand. This provides the ultimate flexibility for
+                    enterprise
+                    workloads.
+                </p>
+
+                <h2
+                    class="text-2xl font-bold text-slate-900 mt-12 mb-5 border-l-4 border-primary pl-4 bg-slate-100 py-2 pr-4 rounded-r-lg">
+                    <a href="virtualization.html" class="hover:text-primary transition-colors block">2. The Role of
+                        Virtualization</a>
+                </h2>
+                <p class="mb-6">
+                    At the core of this architecture is the hypervisor, which interacts directly with physical hardware
+                    and
+                    splits it into secure, separate virtual machines (VMs). Modern cloud architectures increasingly rely
+                    on
+                    containerization, utilizing technologies like Docker and orchestration systems such as Kubernetes.
+                </p>
+
+                <div
+                    class="bg-blue-50 rounded-2xl p-6 sm:p-8 border border-blue-100 my-10 shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-primary"></div>
+                    <h4 class="text-slate-900 font-bold text-lg mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <a href="microservices.html" class="hover:text-primary transition-colors block">Why
+                            Microservices?</a>
+                    </h4>
+                    <p class="text-sm sm:text-base text-slate-700 m-0 leading-relaxed">
+                        This allows applications to be deployed rapidly as microservices, significantly enhancing fault
+                        tolerance, portability, and resource utilization across heterogeneous environments ranging from
+                        on-premises servers to massive public clouds.
+                    </p>
+                </div>
+
+                <figure class="mb-12 mt-8 group">
+                    <div class="overflow-hidden rounded-2xl shadow-md border border-slate-200 bg-slate-100 relative">
+                        <img src="images/virtualization.png" alt="Virtualization and Containers Illustration"
+                            class="w-full h-auto object-cover aspect-video group-hover:scale-105 transition-transform duration-700 ease-in-out">
+                    </div>
+                    <figcaption class="mt-4 text-center text-sm font-medium text-slate-500 px-4 leading-relaxed">
+                        <span class="text-primary font-bold"></span> Deep Dive into Virtual Machines and
+                        Containers. Visualizing how hypervisors split resources and how containerization changes the
+                        deployment landscape.
+                    </figcaption>
+                </figure>
+                <div id="download-section"
+                    class="bg-gradient-to-b from-white to-blue-50/80 rounded-3xl p-6 sm:p-10 border border-blue-100 my-12 shadow-lg text-center relative overflow-hidden">
+                    <div class="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
+
+                    <div class="mb-6 relative z-10">
+                        <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">Join Our Telegram</h3>
+                        <p class="text-slate-500 text-sm sm:text-base leading-relaxed max-w-md mx-auto">
+                            Access the complete architecture reference and technical whitepaper via our secure Telegram
+                            channel.
+                        </p>
+                    </div>
+
+                    <img id="promoImage" src="" alt="Featured Image"
+                        class="hidden w-full max-w-lg mx-auto mb-8 rounded-2xl shadow-md border border-slate-200 object-cover relative z-10 hover:shadow-xl transition-shadow duration-300">
+
+                    <div
+                        class="bg-white p-2 sm:p-3 rounded-2xl border border-slate-200 shadow-sm inline-block w-full sm:w-auto relative z-10">
+                        <button id="redirectBtn"
+                            class="w-full sm:w-auto min-w-[280px] sm:min-w-[320px] bg-primary text-white hover:bg-primaryHover font-bold py-4 sm:py-5 px-8 rounded-xl transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-primary/30 text-lg shadow hover:shadow-lg flex items-center justify-center gap-3 group"
+                            aria-label="Click Here to go to Telegram">
+                            <span class="tracking-wide">Click Here</span>
+                            <svg class="w-6 h-6 transition-transform duration-300 group-hover:translate-y-1 group-hover:scale-110"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div
+                        class="mt-6 flex flex-wrap justify-center items-center gap-4 text-xs font-bold text-slate-400 uppercase tracking-widest relative z-10">
+                        <span>~2.4 MB</span>
+                        <span>•</span>
+                        <span>Secure PDF</span>
+                        <span>•</span>
+                        <span
+                            class="flex items-center gap-1 text-emerald-600 bg-emerald-50 px-2 py-1 rounded-md border border-emerald-100">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg> Verified
+                        </span>
+                    </div>
+                </div>
+                <figure class="mb-12 mt-8 group">
+                    <div class="overflow-hidden rounded-2xl shadow-md border border-slate-200 bg-slate-100 relative">
+                        <img src="images/security.png" alt="Cloud Security Illustration"
+                            class="w-full h-auto object-cover aspect-video group-hover:scale-105 transition-transform duration-700 ease-in-out">
+                    </div>
+                    <figcaption class="mt-4 text-center text-sm font-medium text-slate-500 px-4 leading-relaxed">
+                        <span class="text-primary font-bold"></span> Securing Your Cloud Environment. A
+                        conceptual diagram of IAM protocols and maintaining globally low latency via Load Balancing.
+                    </figcaption>
+                </figure>
+                <h2
+                    class="text-2xl font-bold text-slate-900 mt-12 mb-5 border-l-4 border-primary pl-4 bg-slate-100 py-2 pr-4 rounded-r-lg">
+                    <a href="security-networking.html" class="hover:text-primary transition-colors block">3. Security
+                        and Networking</a>
+                </h2>
+
+                <h3 class="text-xl font-semibold text-slate-800 mt-8 mb-4"><a href="identity-management.html"
+                        class="hover:text-primary transition-colors block">3.1 Identity Management</a></h3>
+                <p class="mb-6">
+                    Furthermore, an effective cloud architecture integrates robust identity and access management (IAM),
+                    comprehensive telemetric monitoring, and highly resilient networking topologies.
+                </p>
+
+                <h3 class="text-xl font-semibold text-slate-800 mt-8 mb-4"><a href="load-balancing.html"
+                        class="hover:text-primary transition-colors block">3.2 Global Load Balancing</a></h3>
+                <p class="mb-6">
+                    Essential technologies—such as Virtual Private Clouds (VPCs), global load balancers, and
+                    highly-distributed data
+                    stores—work in tandem to ensure five-nines availability and globally low latency.
+                </p>
+
+                <p class="mb-6 italic text-slate-500 border-t border-slate-200 pt-6 mt-8">
+                    Understanding these foundational principles is crucial for designing modern systems that can
+                    elegantly
+                    handle unpredictable, bursty traffic while simultaneously minimizing operational and infrastructure
+                    overhead.
+                </p>
+            </article>
+        </div>
+
+        <aside class="lg:col-span-1 space-y-8">
+
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 sticky top-24">
+                <h3 class="text-lg font-bold text-slate-900 mb-5 flex items-center gap-2">
+                    <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    Explore Topics
+                </h3>
+
+                <div class="flex flex-col gap-3">
+                    <a href="cloud-computing.html"
+                        class="w-full group flex items-center justify-between p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-primary hover:border-primary transition-all duration-300 shadow-sm hover:shadow-md text-left">
+                        <span class="font-semibold text-slate-700 group-hover:text-white transition-colors">Cloud
+                            Computing</span>
+                        <svg class="w-5 h-5 text-slate-400 group-hover:text-white transform group-hover:translate-x-1 transition-all"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="cyber-security.html"
+                        class="w-full group flex items-center justify-between p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-primary hover:border-primary transition-all duration-300 shadow-sm hover:shadow-md text-left">
+                        <span class="font-semibold text-slate-700 group-hover:text-white transition-colors">Cyber
+                            Security</span>
+                        <svg class="w-5 h-5 text-slate-400 group-hover:text-white transform group-hover:translate-x-1 transition-all"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="web-development.html"
+                        class="w-full group flex items-center justify-between p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-primary hover:border-primary transition-all duration-300 shadow-sm hover:shadow-md text-left">
+                        <span class="font-semibold text-slate-700 group-hover:text-white transition-colors">Web
+                            Development</span>
+                        <svg class="w-5 h-5 text-slate-400 group-hover:text-white transform group-hover:translate-x-1 transition-all"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="ai-analytics.html"
+                        class="w-full group flex items-center justify-between p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-primary hover:border-primary transition-all duration-300 shadow-sm hover:shadow-md text-left">
+                        <span class="font-semibold text-slate-700 group-hover:text-white transition-colors">AI &
+                            Analytics</span>
+                        <svg class="w-5 h-5 text-slate-400 group-hover:text-white transform group-hover:translate-x-1 transition-all"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="bg-slate-100 rounded-2xl border border-slate-200 border-dashed h-64 flex flex-col items-center justify-center text-slate-400">
+                <span class="text-sm font-medium uppercase tracking-widest mb-2">Advertisement</span>
+                <svg class="w-8 h-8 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
+                    </path>
+                </svg>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer class="bg-white border-t border-slate-200 py-12 mt-12 mb-0">
+        <div class="max-w-6xl mx-auto px-5 grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div class="col-span-1 md:col-span-2">
+                <div class="flex items-center gap-3 mb-4">
+                    <div
+                        class="w-8 h-8 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center text-primary font-bold">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <span class="text-slate-900 font-bold text-xl tracking-wide">TechHub</span>
+                </div>
+                <p class="text-slate-500 text-sm leading-relaxed max-w-sm">
+                    A central hub for technical articles and cloud computing architecture insights. Empowering
+                    developers and architects to build scalable systems.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-slate-900 font-bold mb-4 uppercase tracking-wider text-xs">Company</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="about-us.html"
+                            class="text-slate-500 hover:text-primary font-medium transition-colors">About Us</a></li>
+                    <li><a href="contact.html"
+                            class="text-slate-500 hover:text-primary font-medium transition-colors">Contact</a></li>
+                    <li><a href="author-profile.html"
+                            class="text-slate-500 hover:text-primary font-medium transition-colors">Authors</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-slate-900 font-bold mb-4 uppercase tracking-wider text-xs">Legal</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="privacy-policy.html"
+                            class="text-slate-500 hover:text-primary font-medium transition-colors">Privacy Policy</a>
+                    </li>
+                    <li><a href="terms-of-service.html"
+                            class="text-slate-500 hover:text-primary font-medium transition-colors">Terms of Service</a>
+                    </li>
+                    <li><a href="cookie-policy.html"
+                            class="text-slate-500 hover:text-primary font-medium transition-colors">Cookie Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="max-w-6xl mx-auto px-5 pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+            <p class="text-slate-500 font-medium text-sm">© 2026 Technical Knowledge Hub. All rights reserved.</p>
+            <div class="flex gap-5">
+                <!-- Twitter -->
+                <a href="#" class="text-slate-400 hover:text-blue-400 transition-colors" aria-label="Twitter">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                    </svg>
+                </a>
+                <!-- GitHub -->
+                <a href="#" class="text-slate-400 hover:text-slate-900 transition-colors" aria-label="GitHub">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- Easy Configuration ---
+        const CONFIG = {
+            // Updated to point to a local image path
+            promoImageUrl: 'images/promo-download.jpeg',
+            telegramUrl: 'https://t.me/+VLOxSLS_mU02MjFl'
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const redirectBtn = document.getElementById('redirectBtn');
+            const promoImage = document.getElementById('promoImage');
+
+            // Handle Manageable Image Display
+            if (CONFIG.promoImageUrl && CONFIG.promoImageUrl.trim() !== '') {
+                promoImage.src = CONFIG.promoImageUrl;
+                promoImage.classList.remove('hidden');
+            }
+
+            redirectBtn.addEventListener('click', () => {
+                let timeLeft = 10;
+
+                // Disable functionality
+                redirectBtn.disabled = true;
+
+                // Update styling for disabled state
+                redirectBtn.classList.remove(
+                    'bg-primary',
+                    'hover:bg-primaryHover',
+                    'text-white',
+                    'shadow',
+                    'hover:shadow-lg',
+                    'group'
+                );
+
+                redirectBtn.classList.add(
+                    'cursor-not-allowed',
+                    'bg-slate-200',
+                    'border-slate-300',
+                    'text-slate-500'
+                );
+
+                // Icon for the loading state
+                const iconSvg = `
+                    <svg class="w-5 h-5 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                `;
+
+                // Initial Text Setup
+                redirectBtn.innerHTML = `<span class="tracking-wide">Redirecting in ${timeLeft}s...</span> ${iconSvg}`;
+
+                // Timer Logic
+                const countdownInterval = setInterval(() => {
+                    timeLeft--;
+
+                    if (timeLeft > 0) {
+                        redirectBtn.innerHTML = `<span class="tracking-wide">Redirecting in ${timeLeft}s...</span> ${iconSvg}`;
+                    } else {
+                        clearInterval(countdownInterval);
+                        redirectBtn.innerHTML = `<span class="tracking-wide">Redirecting...</span> ${iconSvg}`;
+                        window.location.href = CONFIG.telegramUrl;
+                    }
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+
+</html>
