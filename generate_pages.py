@@ -1,7 +1,8 @@
 import re
-import os
+from pathlib import Path
 
-filepath = r"c:\Users\Lenovo\OneDrive\Desktop\movie-portal - Copy\index.html"
+root_dir = Path(__file__).resolve().parent
+filepath = root_dir / "index.html"
 with open(filepath, 'r', encoding='utf-8') as f:
     html = f.read()
 
@@ -112,7 +113,7 @@ for filename, title, heading, desc in pages:
     # Replace title tag in head
     page_head = re.sub(r'<title>.*?</title>', f'<title>{title} | TechHub</title>', head_part)
     
-    out_filepath = os.path.join(r"c:\Users\Lenovo\OneDrive\Desktop\movie-portal - Copy", filename)
+    out_filepath = root_dir / filename
     with open(out_filepath, 'w', encoding='utf-8') as f:
         f.write(page_head + page_content + foot_part)
 
