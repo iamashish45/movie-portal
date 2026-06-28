@@ -1,6 +1,0 @@
-[build]
-  publish = "."
-  command = "python generate_pages.py"
-
-[build.environment]
-  PYTHON_VERSION = "3.11"
